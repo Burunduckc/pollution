@@ -1,0 +1,21 @@
+.logo_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.logo_img {
+    width: 70px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.logo_text {
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+        &:hover {
+            color: rgb(190, 190, 185);
+        }
+}

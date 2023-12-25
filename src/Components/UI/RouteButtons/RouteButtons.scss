@@ -1,0 +1,25 @@
+.routes__button { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    &-link {
+        button {
+            width: 150px;
+            height: 35px;
+            border-radius: 15px;
+            background-color: #fff; 
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            &:hover {
+                background-color: #c5c5c5;
+            }
+        }
+        padding-right: 15px;
+    }
+    &-text {
+        font-size: 16px;
+        color: #000;
+    }
+}
