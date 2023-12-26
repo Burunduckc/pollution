@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 35px;
     justify-content: center;
+    padding-bottom: 200px;
     &__blockimg {
         width: 320px;
         img {
@@ -21,11 +22,14 @@
     }
     &-url {
         padding-left: 15px;
-        padding-top: 15px;
         button {
             background: none;
+            margin-top: 15px;
             font-size: 16px;
             border: 1px slategrey solid;
+            border: none;
+            cursor: pointer;
+            padding-bottom: 5px;
         }
     }
 }

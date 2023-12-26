@@ -10,11 +10,9 @@ export const HappeningItems = () => {
           <div className="happening-list__blockimg">
             <img src={element.source} alt="" />
           </div>
-          <div style={{margin: '0 auto'}}>
           <Link to={element.route} className="happening-list-url">
             <button>{element.title} </button>
           </Link>
-          </div>
         </div>
       ))}
     </div>

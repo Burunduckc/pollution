@@ -1,0 +1,10 @@
+.happening {
+    &-info {
+        padding: 0 100px;
+        &-text {
+            text-align: center;
+            font-size: 64px;
+            padding-bottom: 40px;
+        }
+    }
+}
