@@ -57,17 +57,13 @@ export const Home = () => {
         </div>
         <div className="home-variant__item">
           <div className="home-variant__blockoftext">
-            <p className="home-variant-main">Забруднення води:</p>
+            <p className="home-variant-main">Хімічне забрудення:</p>
             <p className="home-variant-sub">
-              Одним з основних аспектів забруднення навколишнього середовища є
-              викид сміття у водні джерела. Ця дія завдає невідновного шкоди
-              екосистемам та водним ресурсам. Сміття, викинуте у воду,
-              розкладається повільно, забруднюючи воду та загрожуючи життю
-              багатьох видів риб та інших морських організмів.
+            Хімічні забруднення - тверді, газоподібні й рідкі речовини, хімічні елементи й сполуки штучного походження, які надходять - у біосферу, порушуючи встановлені природою процеси кругообігу речовин і енергії.
             </p>
           </div>
           <div>
-            <img src={pol} alt="" className="home-variant-icon" />
+            <img src={'https://www.volynnews.com/files/news/2022/01-21/330313/smokepollution.jpg'} alt="" className="home-variant-icon" />
           </div>
         </div>
         <div className="home-variant__item">

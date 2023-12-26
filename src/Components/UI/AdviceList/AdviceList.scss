@@ -1,0 +1,19 @@
+.advice-list {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+  &-text__block {
+    
+  }
+  &_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+  }
+}
