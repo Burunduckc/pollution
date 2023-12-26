@@ -1,4 +1,3 @@
-import React from 'react'
 import { HappeningItems } from '../../Components/UI/HappeningItems/HappeningItems'
 
 export const Happening = () => {

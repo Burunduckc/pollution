@@ -1,4 +1,3 @@
-import React from 'react'
 import { AdviceList } from '../../Components/UI/AdviceList/AdviceList'
 import { advicesArray } from '../../data/advices'
 import './Advice.scss'

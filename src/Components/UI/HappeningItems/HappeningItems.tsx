@@ -1,4 +1,3 @@
-import React from "react";
 import { happeningsData } from "../../../data/happenings";
 import { Link } from "react-router-dom";
 import "./HappeningItems.scss";
