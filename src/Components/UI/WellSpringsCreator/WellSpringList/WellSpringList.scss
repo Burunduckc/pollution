@@ -1,0 +1,15 @@
+.wellspring-list {
+    padding-left: 20px;
+    &__item {
+        margin-top: 10px;
+        &-link {
+            font-size: 20px;
+            transition: 0.3s ease-in-out;
+            text-decoration: underline;
+            &:hover {
+                color: #a6aba7;
+                text-decoration: none;
+            }
+        }
+    }
+}

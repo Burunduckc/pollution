@@ -1,10 +1,9 @@
-import React from 'react'
-import './Footer.scss'
+import "./Footer.scss";
 
 export const Footer = () => {
   return (
-    <footer className=''>
-      <p style={{textAlign: 'center'}}>Дякуємо, бережіть природу</p>
+    <footer className="">
+      <p style={{ textAlign: "center" }}>Бережіть природу!</p>
     </footer>
-  )
-}
+  );
+};

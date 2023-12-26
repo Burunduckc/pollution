@@ -1,7 +1,14 @@
-import React from 'react'
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+import { Link, useParams } from 'react-router-dom'
+import { happeningsData } from '../../data/happenings'
 
-export const Happenings = () => {
+export const HappeningsFirst = () => {
+  const { id } = useParams()
   return (
-    <div>Happenings</div>
+    <div>
+      <Link to={'/happenings'}>Повернутись назад</Link>
+      {/*@ts-expect-error*/}
+      {+id >= happeningsData.length ? <p style={{textAlign: 'center', fontSize: '64px', marginTop: '20px'}}>Вибачте, такого наслідка немає</p> :  <p>{happeningsData[+id].title}</p>}
+    </div>
   )
 }

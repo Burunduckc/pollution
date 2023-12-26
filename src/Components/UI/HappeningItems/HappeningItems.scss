@@ -1,0 +1,31 @@
+.happening-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    &__blockimg {
+        width: 320px;
+        img {
+            width: 100%;
+            height: 150px;
+            border-radius: 15px;
+            transition: .2s ease-out;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    &__item {
+        border: #72cc87 1px solid;
+        border-radius: 15px;
+    }
+    &-url {
+        padding-left: 15px;
+        padding-top: 15px;
+        button {
+            background: none;
+            font-size: 16px;
+            border: 1px slategrey solid;
+        }
+    }
+}

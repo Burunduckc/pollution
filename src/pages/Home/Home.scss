@@ -1,5 +1,6 @@
 .home {
   padding-bottom: 40px;
+  padding: 0 100px;
   &-start {
     background: url('../../assets/7142_bigstock_Creative_Background_World_Wra_381023654__1_.png')center center/cover no-repeat;
     padding-bottom: 120px;
@@ -8,14 +9,17 @@
     padding-top: 40px;
     text-align: center;
     padding-bottom: 60px;
+    font-size: 64px;
   }
   &-subtitle {
     text-align: center;
   }
   &-propositions {
+    border-radius: 10px;
     background-color: black;
+    margin-bottom: 30px;
     padding-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
     &-wrapper {
       margin-top: 30px;
       display: flex;
@@ -67,6 +71,10 @@
       width: 513px;
       border-radius: 5px;
       height: 367px;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }

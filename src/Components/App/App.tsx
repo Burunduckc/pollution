@@ -6,6 +6,7 @@ import { Happening } from "../../pages/Happenings/Happening";
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import "./App.css";
+import { HappeningsFirst } from "../../pages/Happenings/HappeningsFirst";
 
 
 const App = () => {
@@ -26,6 +27,10 @@ const App = () => {
       link: "/happenings",
       path: <Happening />,
     },
+    {
+      link: '/happenings/:id',
+      path: <HappeningsFirst/>
+    }
   ];
   return (
     <>

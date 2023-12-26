@@ -1,6 +1,4 @@
-import iconsNatureFirst from "../../assets/1434834.png";
-import iconsNatureSecond from "../../assets/5133640.png";
-import iconsNatureThird from "../../assets/4337649.png";
+import { HomeProposition } from "../../Components/UI/HomeProposition/HomeProposition";
 import iconsWarmingPopullation from "../../assets/1651010058_1-vsegda-pomnim-com-p-teplovoe-zagryaznenie-okeana-foto-1.jpg";
 import pol from "../../assets/pollution.svg";
 import plasticPollution from "../../assets/shutterstock426187984-resized.png";
@@ -10,9 +8,9 @@ export const Home = () => {
   return (
     <div className="home">
       <div className="home-start">
-        <h2 className="home-title">
+        <h1 className="home-title">
           Забруднення навколишнього середовища та важливість його охорони
-        </h2>
+        </h1>
         <p className="home-subtitle">
           Забруднення навколишнього середовища – серйозна проблема, яка
           негативно впливає на наш світ. Людство повинно усвідомити, наскільки
@@ -36,7 +34,10 @@ export const Home = () => {
             </p>
           </div>
           <div>
-            <img src={pol} alt="" className="home-variant-icon" />
+            <img 
+            src={pol} 
+            alt="" 
+            className="home-variant-icon" />
           </div>
         </div>
         <div className="home-variant__item">
@@ -89,47 +90,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="home-propositions">
-        <p className="home-propositions-title">
-          Саме тому, ця веб сторінка існує задля поліпшеня ситуації, щодо
-          навколошнього забруднення
-        </p>
-        <div className="home-propositions-wrapper">
-          <div className="home-propositions-card">
-            <img
-              src={iconsNatureSecond}
-              alt="nature icon first"
-              className="home-propositions-card-icon planet"
-            />
-            <p className="home-propositions-card-text">
-              Понад тисячі компаній, які не байдужі та допомогають навколошноьму
-              середовищу не загрязнатись до великих мастшабів
-            </p>
-          </div>
-          <div className="home-propositions-card">
-            <img
-              src={iconsNatureFirst}
-              alt="nature icon first"
-              className="home-propositions-card-icon"
-            />
-            <p className="home-propositions-card-text">
-              Якщо довкілля буде дуже сильно забруднено і знищено, загине і сама
-              людина
-            </p>
-          </div>
-          <div className="home-propositions-card">
-            <img
-              src={iconsNatureThird}
-              alt="nature icon first"
-              className="home-propositions-card-icon petal"
-            />
-            <p className="home-propositions-card-text">
-              Тому люди так старанно намагаються щодня знайти спосіб вирішення
-              проблеми у вигляді забруднення.
-            </p>
-          </div>
-        </div>
-      </div>
+      <HomeProposition />
     </div>
   );
 };
