@@ -3,7 +3,10 @@
   gap: 50px;
   padding-top: 50px;
   &-text__block {
-    
+    h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
   }
   &_grid {
     display: grid;

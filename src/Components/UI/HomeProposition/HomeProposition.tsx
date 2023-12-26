@@ -1,4 +1,3 @@
-import React from "react";
 import { morePropistions } from "../../../data/propositionRender";
 
 export const HomeProposition = () => {
