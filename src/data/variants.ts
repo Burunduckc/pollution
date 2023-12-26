@@ -1,7 +1,7 @@
 import pollutionImg from '../assets/pollution.svg'
-
-
-interface variantsComponent {
+import plastick from '../assets/shutterstock426187984-resized.png'
+import warmingPollutison from '../assets/1651010058_1-vsegda-pomnim-com-p-teplovoe-zagryaznenie-okeana-foto-1.jpg'
+export interface variantsComponent {
     main: string,
     sub: string,
     source: string,
@@ -23,4 +23,22 @@ export const variantsArray: variantsComponent[] = [
         source: pollutionImg,
         alt: 'pollutionImg'
     },
+    {
+        main: 'Пластикове забруднення:',
+        sub: 'У довкілля потрапляє величезна кількість пластикових відходів; Так, дослідження припускають, що тіла 90% морських птахів містять у собі пластик. Існує дуже багато видів та форм пластикового забруднення. Пластикове забруднення негативно впливає на земну поверхню, водні шляхи та океани.',
+        alt: 'plasticImage',
+        source: plastick
+    },
+    {
+        main: 'Хімічне забрудення',
+        sub: 'Хімічні забруднення - тверді, газоподібні й рідкі речовини, хімічні елементи й сполуки штучного походження, які надходять - у біосферу, порушуючи встановлені природою процеси кругообігу речовин і енергії.',
+        alt: 'chemisrty',
+        source: 'https://www.volynnews.com/files/news/2022/01-21/330313/smokepollution.jpg'
+    },
+    {
+        main: 'Теплове забруднення',
+        sub: 'Наслідки Теплове забруднення є причиною створення теплових островів, місцевої (штучної) інверсії температур над джерелом, що призводить до розвитку мікроциркуляцій атмосфери, зміни мікроклімату та ускладнення механізму перенесення забруднень. Виникають проблеми у річках та прибережних океанічних водах.',
+        alt: 'warming pollution',
+        source: warmingPollutison
+    }
 ]

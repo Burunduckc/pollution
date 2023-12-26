@@ -1,10 +1,9 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Link, useParams } from "react-router-dom";
 import { happeningsData } from "../../data/happenings";
 import { HappeningImages } from "../../Components/UI/HappeningImages/HappeningImages";
-import "./HappeningFirst.scss";
 import { HappeningListPollution } from "../../Components/UI/HappeningListPollutions/HappeningListPollution";
 import { HappeningListOfSources } from "../../Components/UI/HappeningListOfSources/HappeningListOfSources";
+import "./HappeningFirst.scss";
 
 export const HappeningsFirst = () => {
   const { id } = useParams() as {id: string};

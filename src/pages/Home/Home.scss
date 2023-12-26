@@ -90,3 +90,31 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 1024px) {
+  .home{
+    &-variant {
+      &__item {
+        flex-direction: column;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    &-title {
+      font-size: 32px;
+    }
+    padding: 0;
+    &-propositions {
+      &-wrapper {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .home {
+    padding: 0 25px;
+  }
+}
